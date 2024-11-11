@@ -32,7 +32,7 @@ const vid = ['https://telegra.ph/file/405daebd4bc0d69e5d165.mp4',
 'https://telegra.ph/file/1d0ad9f79f65f39895b08.mp4',
 'https://telegra.ph/file/c25afc1685b13210ce602.mp4']
 let menu = `*˚₊·˚₊· ͟͟͞͞➳❥ ${taguser}*
-*˚₊·˚₊· ͟͟͞͞➳❥* 𝙔𝙖𝙚𝙢𝙤𝙧𝙞𝘽𝙤𝙩-𝙈𝘿 🌻✨
+*˚₊·˚₊· ͟͟͞͞➳❥* 𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭-𝐌𝐃✨
  
 *•/• Info User •/•*
  
@@ -45,7 +45,7 @@ let menu = `*˚₊·˚₊· ͟͟͞͞➳❥ ${taguser}*
 
 *•/• Info Bot •/•*
 
-👑 Creador » \`\`\`@DevDiego\`\`\`
+👑 Creador » \`\`\`Sebas-MD\`\`\`
 🍟 Bot » \`\`\`${(conn.user.jid == global.conn.user.jid ? 'Oficial' : 'SubBot')}\`\`\`
 ☁️ Librería » \`\`\`Baileys\`\`\`
 📆 Fecha » \`\`\`${moment.tz('America/Bogota').format('DD/MM/YY')}\`\`\`
@@ -394,7 +394,7 @@ let menu = `*˚₊·˚₊· ͟͟͞͞➳❥ ${taguser}*
 
 > ${global.dev}`.trim()
 
-await conn.sendMessage(m.chat, { video: { url: vid.getRandom() }, caption: menu, contextInfo: { mentionedJid: [m.sender], isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1, }, forwardingScore: 999, externalAdReply: { title: '𝙔𝙖𝙚𝙢𝙤𝙧𝙞𝘽𝙤𝙩-𝙈𝘿 🌻✨', body: dev, thumbnailUrl: perfil, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false,
+await conn.sendMessage(m.chat, { video: { url: vid.getRandom() }, caption: menu, contextInfo: { mentionedJid: [m.sender], isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1, }, forwardingScore: 999, externalAdReply: { title: '🏴‍☠️𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭-𝐌𝐃☠', body: dev, thumbnailUrl: perfil, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false,
 }, }, gifPlayback: true, gifAttribution: 0 }, { quoted: null })
 await m.react(emojis)    
     
