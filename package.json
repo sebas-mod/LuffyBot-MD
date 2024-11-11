@@ -1,6 +1,6 @@
 {
-"name": "YaemoriBot-MD",
-"version": "2.0.7",
+"name": "LuffyBot-MD",
+"version": "1.0.0",
 "description": "Simple WhatsApp Bot Multi Device",
 "main": "index.js",
 "type": "module",
@@ -18,22 +18,19 @@
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/Dev-Diego/YaemoriBot-MD",
+"homepage": "https://github.com/sebas-mod/LuffyBot-MD",
 "author": {
-"name": "Dev-Diego"
+"name": "Sebas-MD"
 },
 "collaborators": {
-"col1": "GataNina-Li",
-"col2": "David-Chian",
-"col3": "patito-ofc",
-"col4": "CheirZ"
+"col1": "kenisawa"
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Dev-Diego/YaemoriBot-MD.git"
+"url": "git+https://github.com/sebas-mod/LuffyBot-MD.git"
 },
 "bugs": {
-"url": "https://github.com/Dev-Diego/YaemoriBot-MD/issues"
+"url": "https://github.com/sebas-mod/LuffyBot-MD/issues"
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {
