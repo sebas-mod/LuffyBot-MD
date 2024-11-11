@@ -26,11 +26,11 @@ let totalreg = Object.keys(global.db.data.users).length
 let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let mentionedJid = [who]
-let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.ax/QGAVS.jpg')
+let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://pomf2.lain.la/f/p24b0ipc.jpg')
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-const vid = ['https://telegra.ph/file/405daebd4bc0d69e5d165.mp4',
-'https://telegra.ph/file/1d0ad9f79f65f39895b08.mp4',
-'https://telegra.ph/file/c25afc1685b13210ce602.mp4']
+const vid = ['https://pomf2.lain.la/f/grh9zmhe.mp4',
+'https://pomf2.lain.la/f/qjtpp4qh.mp4',
+'https://pomf2.lain.la/f/lyvop3d8.mp4']
 let menu = `*˚₊·˚₊· ͟͟͞͞➳❥ ${taguser}*
 *˚₊·˚₊· ͟͟͞͞➳❥* 𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭-𝐌𝐃✨
  
