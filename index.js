@@ -8,7 +8,7 @@ import cfonts from 'cfonts'
 import { createInterface } from 'readline'
 import yargs from 'yargs'
 import chalk from 'chalk'
-console.log('\n✰ Iniciando Yaemori ✰')
+console.log('\n✰ Iniciando LuffyBot ✰')
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const require = createRequire(__dirname)
 const { name, description, collaborators, author, version } = require(join(__dirname, './package.json'))
@@ -23,7 +23,7 @@ if (collaborators.hasOwnProperty(key)) {
 activeCollaborators += collaborators[key] + ', '
 }}
 activeCollaborators = activeCollaborators.slice(0, -2);
-cfonts.say('yaemori\nbot md', {
+cfonts.say('Luffy\nBot MD', {
 align: 'center',           
 gradient: ['red', 'blue'] 
 })
@@ -33,7 +33,7 @@ align: 'center',
 gradient: ['blue', 'magenta']
 })
 const message = `${subtitleStyle('Desarrollado por »')} ${responseStyle(author.name)}
-${subtitleStyle('Código basado por »')} ${responseStyle('BrunoSobrino')}
+${subtitleStyle('Código basado por »')} ${responseStyle('Sebas-MD')}
 ${subtitleStyle('Colaboradores activos »')} ${responseStyle(activeCollaborators)}
 ${subtitleStyle('Versión »')} ${responseStyle(version)}`
 console.log(boxen(message, { padding: 1, margin: 1, borderStyle: 'double', borderColor: 'blue', float: 'center', }))
