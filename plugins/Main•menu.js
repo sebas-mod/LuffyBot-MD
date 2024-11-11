@@ -64,6 +64,7 @@ let menu = `*˚₊·˚₊· ͟͟͞͞➳❥ ${taguser}*
 🍄 ${usedPrefix}runtime
 🍄 ${usedPrefix}script
 🍄 ${usedPrefix}blocklist
+🍄 ${usedPrefix}estilos
 
 *•/• Busquedas •/•*
 
