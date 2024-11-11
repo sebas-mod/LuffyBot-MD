@@ -44,7 +44,7 @@ global.namechannel = '🏴‍☠️𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭-𝐌𝐃|�
 
 //ids channel
 global.channelid = '120363299030870235@newsletter'
-global.canalIdYL = ["120363299030870235@newsletter"]
+global.canalIdYL = ["120363299030870235@newsletter","120363299030870235@newsletter","120363299030870235@newsletter","120363299030870235@newsletter"]
 global.canalNombreYL = ["🏴‍☠️𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭-𝐌𝐃|𝐒𝐞𝐛𝐚𝐬-𝐌𝐃☠"]
 global.channelRD = await getRandomChannel()
 
