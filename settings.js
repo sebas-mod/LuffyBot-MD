@@ -49,14 +49,14 @@ global.textbot = '𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭-𝐌𝐃|𝐒𝐞𝐛𝐚𝐬
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.imagen1 = fs.readFileSync('./src/img/Menu.jpg')
-global.imagen2 = fs.readFileSync('./src/img/Menu2.jpg')
-global.imagen3 = fs.readFileSync('./src/img/Menu3.jpg')
-global.welcome = fs.readFileSync('./src/img/welcome.jpg')
-global.adios = fs.readFileSync('./src/img/adios.jpg')
-global.catalogo = fs.readFileSync('./src/img/catalogo.jpg')
-global.miniurl = fs.readFileSync('./src/img/miniurl.jpg')
-global.avatar = fs.readFileSync('./src/img/avatar_contact.jpg')
+global.imagen1 = fs.readFileSync('./src/img/Menu.jpeg')
+global.imagen2 = fs.readFileSync('./src/img/Menu2.jpeg')
+global.imagen3 = fs.readFileSync('./src/img/Menu3.jpeg')
+global.welcome = fs.readFileSync('./src/img/welcome.jpeg')
+global.adios = fs.readFileSync('./src/img/adios.jpeg')
+global.catalogo = fs.readFileSync('./src/img/catalogo.jpeg')
+global.miniurl = fs.readFileSync('./src/img/miniurl.jpeg')
+global.avatar = fs.readFileSync('./src/img/avatar_contact.jpeg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
