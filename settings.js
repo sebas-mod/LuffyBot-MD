@@ -33,19 +33,19 @@ global.libreria = 'Baileys'
 global.baileys = 'V 6.7.5'
 global.vs = '2.0.7'
 global.vsJB = '5.0'
-global.nameqr = 'Ai Yaemori - MD'
-global.namebot = 'ᥡᥲᥱm᥆rі ᑲ᥆𝗍 ᰔᩚ'
+global.nameqr = '𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭-𝐌𝐃'
+global.namebot = '𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭-𝐌𝐃'
 global.sessions = 'MiniSession'
 global.jadi = 'MiniJadiBot'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = '⪛✰ 𝐀𝐢 𝐘𝐚𝐞𝐦𝐨𝐫𝐢 - 𝐌𝐃 ✰⪜'
-global.botname = 'Yaemori Bot - MD 🍟'
-global.wm = 'YaemoriBot-MD 🌸'
-global.author = 'Made By DevDiego 👑'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ძᥱ᥎ძіᥱg᥆ ⚡︎'
-global.textbot = 'Ai Yaemori : DevDiego 🚩'
+global.packname = '𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭-𝐌𝐃'
+global.botname = ''
+global.wm = '𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭-𝐌𝐃'
+global.author = 'Made By sebas-MD 👑'
+global.dev = 'realizado x sebas-MD ⚡︎'
+global.textbot = '𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭-𝐌𝐃|𝐒𝐞𝐛𝐚𝐬-𝐌𝐃'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
@@ -60,16 +60,8 @@ global.avatar = fs.readFileSync('./src/img/avatar_contact.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.grupo = 'https://chat.whatsapp.com/GkuIuySiMwb4qJGl3UJtcZ' //YaemoriBot
-global.grupo2 = 'https://chat.whatsapp.com/Ksd32KH9zFoDmO1PJt44M7' //GataBot & YaemoriBot
-global.grupo3 = 'https://chat.whatsapp.com/HjVwC835OWgERQYhspnMW8' //Megumin & YaemoriBot
-global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A'
-global.channel2 = 'https://whatsapp.com/channel/0029Vam7yUg77qVaz3sIAp0z'
-global.channel3 = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'
-global.md = 'https://github.com/Dev-Diego/YaemoriBot-MD' 
-global.yt = 'https://www.youtube.com/@OfcDiego'
-global.tiktok = 'https://tiktok.com/@dev_diego'
-global.correo = 'theyaemoribot@gmail.com'
+global.grupo = 'https://chat.whatsapp.com/GkuIuySiMwb4qJGl3UJtcZ' //canal de luffybot-md
+global.grupo2 = 'https://whatsapp.com/channel/0029VafHsEoBqbr3qlW1aX0U' //Global de luffybot-md
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
@@ -78,11 +70,8 @@ global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(fa
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.ch = {
-ch1: '120363310433406751@newsletter',
-ch2: '120363263466636910@newsletter',
-ch3: '120363160031023229@newsletter',
-ch4: '120363307382381547@newsletter',
-ch5: '120363301598733462@newsletter',
+ch1: '120363299030870235@newsletter',
+ch2: '120363299030870235@newsletter'
 }
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
