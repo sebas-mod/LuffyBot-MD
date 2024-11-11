@@ -1,20 +1,25 @@
-const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, command, usedPrefix}) => {
-  if (usedPrefix == 'a' || usedPrefix == 'A') return;
+const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, command}) => {
   if (!(isAdmin || isOwner)) {
     global.dfail('admin', m, conn);
-    return;
+    throw false;
+    var sum = member.length;
+  } else {
+    var sum = 0;
+    const total = 0;
+    var member = 0;
   }
   const pesan = args.join` `;
-  const colombia = `💌 *Mensaje:* ${pesan}`;
-  let teks = `💥 *INVOCANDO GRUPO*\n${colombia}\n\n☁️ *Tags:*\n`;
+  const oi = `${pesan}`;
+  let teks = `🏴‍☠️𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭-𝐌𝐃☠\n\n*𝙋𝙖𝙧𝙩𝙞𝙘𝙞𝙥𝙖𝙣𝙩𝙚𝙨:  ${participants.length}* ${oi}\n\n*┌──𝙍𝙀𝙑𝙄𝙑𝘼𝙉 𝙁𝘼𝙉𝙏𝘼𝙎𝙈𝘼𝙎👻*\n`;
   for (const mem of participants) {
-    teks += `@${mem.id.split('@')[0]}\n`;
+    teks += `*│ •➤@${mem.id.split('@')[0]}*\n`;
   }
+  teks += `*└─────── by: 𝙎𝙚𝙗𝙖𝙨 𝙈𝙤𝙙*`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
-handler.help = ['tagall *<mesaje>*', 'invocar *<mesaje>*'];
+handler.help = ['todos <mesaje>', ' <mesaje>'];
 handler.tags = ['grupo'];
-handler.command = ['tagall', 'invocar'];
+handler.command = /^(todos)$/i;
 handler.admin = true;
 handler.group = true;
 export default handler;
