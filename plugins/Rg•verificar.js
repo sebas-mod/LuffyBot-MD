@@ -47,9 +47,9 @@ let chtxt = `
 🌎 *Pais* » ${global.userNationality}
 🗃 *Verificación* » ${user.name}
 🌺 *Edad* » ${user.age}
-📆 *Fecha* » ${moment.tz('America/Bogota').format('DD/MM/YY')}
+📆 *Fecha* » ${moment.tz('America/buenos aires').format('DD/MM/YY')}
 `.trim()
-await conn.sendMessage(global.channelid, { text: chtxt, contextInfo: {
+await conn.sendMessage(global.rcanal, { text: chtxt, contextInfo: {
 externalAdReply: {
 title: "【 🔔 𝗡𝗢𝗧𝗜𝗙𝗜𝗖𝗔𝗖𝗜𝗢́𝗡 🔔 】",
 body: '🥳 ¡Un usuario nuevo en mi base de datos!',
