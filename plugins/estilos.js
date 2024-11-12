@@ -292,8 +292,8 @@ H⃟༻ I⃟༻ J⃟༻K⃟༻ L⃟༻M⃟༻ N⃟༻O⃟༻ P⃟༻ Q⃟༻R⃟
       sourceUrl: ``}}});
 };
 handler.help = ['diseños'];
-handler.tags = ['main'];
-handler.command = /^(diseños)$/i;
+handler.tags = ['info'];
+handler.command = /^(diseño)$/i;
 export default handler;
 
 function clockString(ms) {
