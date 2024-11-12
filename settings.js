@@ -60,7 +60,7 @@ global.avatar = fs.readFileSync('./src/img/avatar_contact.jpeg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.grupo = 'https://chat.whatsapp.com/GkuIuySiMwb4qJGl3UJtcZ' //canal de luffybot-md
+global.grupo = 'https://chat.whatsapp.com/DJkL87Jl3qFCRCUNt19UlO' //canal de luffybot-md
 global.grupo2 = 'https://whatsapp.com/channel/0029VafHsEoBqbr3qlW1aX0U' //Global de luffybot-md
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
