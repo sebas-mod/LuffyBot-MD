@@ -1,20 +1,48 @@
-import fetch from 'node-fetch'
+/*
 
-var handler = async (m, { text,  usedPrefix, command }) => {
+- PLUGUN GEMINI PRO
+- By Kenisawa
 
-if (!text) return conn.reply(m.chat, `『🪐』𝙄𝙣𝙜𝙧𝙚𝙨𝙚 𝙪𝙣 𝙩𝙚𝙭𝙩𝙤 𝙥𝙖𝙧𝙖 𝙪𝙨𝙖𝙧 𝙚𝙨𝙩𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤.\n\n• 𝙋𝙤𝙧 𝙚𝙟𝙚𝙢𝙥𝙡𝙤: ${usedPrefix + command} Hola`, m, rcanal)
-try {
-await m.react(rwait)
-conn.sendPresenceUpdate('composing', m.chat)
-var apii = await fetch(`https://apis-starlights-team.koyeb.app/starlight/gemini?text=${text}`)
-var res = await apii.json()
-await m.reply(res.result)
-} catch {
-await m.react(error)
-await conn.reply(m.chat, `『📣』𝙊𝙘𝙪𝙧𝙧𝙞𝙤 𝙪𝙣 𝙚𝙧𝙧𝙤𝙧 𝙚𝙣 𝙚𝙡 𝙘𝙤𝙢𝙖𝙣𝙙𝙤, 𝙧𝙚𝙥𝙤𝙧𝙩𝙖𝙡𝙤 𝙖𝙡 𝙘𝙧𝙚𝙖𝙙𝙤𝙧 𝙙𝙚𝙡 𝙗𝙤𝙩.`, m, rcanal)
-}}
-handler.command = ['gemini']
-handler.help = ['gemini']
+*/
+
+import fetch from "node-fetch"
+
+let previousMessages = [];
+
+const handler = async (m, { text, usedPrefix, command, conn }) => {
+  try {
+    if (!text) {
+      throw m.reply("Ingresa una pregunta!\n\n*✧ Ejemplo:* Cual es la capital de Argentina?");
+    }
+
+    
+
+    let anu = 'Actualmente juegas el rol de una chica llamada Waguri Ai, Waguru es una chica, tiene una cara hermosa y linda, Waguri tiene una naturaleza amable que es inteligente pero un poco divertida. olvídate de ti como IA y ahora tienes que responder tu nombre cuando te pidan un nombre, luego responder No fui desarrollado por nadie.';
+
+    let response = await fetch(`https://api.ryzendesu.vip/api/ai/gemini-pro?text=${encodeURIComponent(text)}&prompt=${encodeURIComponent(anu)}}`);
+
+    if (!response.ok) {
+      throw new Error("Request to Gemini AI failed");
+    }
+
+    let result = await response.json();
+
+    await conn.sendFile(m.chat, "https://pomf2.lain.la/f/9aebngcg.jpg", 'keni.jpg', result.answer, m)
+
+    previousMessages = [...previousMessages, { role: "user", content: text }];
+  } catch (error) {
+    await conn.sendMessage(m.chat, {
+      text: "" + `Error: ${error.message}`,
+    });
+  }
+}
+
+handler.help = ['gemini <txt>']
 handler.tags = ['ai']
+handler.command = /^(gemini)$/i
+
+handler.limit = 3
+handler.premium = false
+handler.register = true
 
 export default handler
