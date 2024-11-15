@@ -84,6 +84,8 @@ var github = 'https://github.com/sebas-mod/LuffyBot-MD'
 
 global.redes = [canal, canal2, git, github].getRandom()
 
+global.redeshost = [canal, canal2, git, github].getRandom()
+
 //Imagen
 let category = "imagen"
 const db = './src/database/db.json'
@@ -120,8 +122,7 @@ global.icono = [
 
 var handler = m => m
 handler.all = async function (m) {
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "", serverMessageId: 100, newsletterName: '『•»𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭-𝐌𝐃 «•』', }, externalAdReply: { showAdAttribution: true, title: packname, body: '🍟 ¡Super Bot De WhatsApp!', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: , sorceUrl:, mediaType: 1, renderLargerThumbnail: false }, }, }}
-export default handler
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid:"", serverMessageId: 100, newsletterName:"𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭-𝐌𝐃", }, externalAdReply: { showAdAttribution: true, title: namebot, body: "𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭-𝐌𝐃", mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 
 function pickRandom(list) {
