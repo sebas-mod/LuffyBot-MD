@@ -118,8 +118,9 @@ global.icono = [
 "https://pomf2.lain.la/f/fooov7lm.jpg"
 ].getRandom()
 
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: namebot, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
-
+var handler = m => m
+handler.all = async function (m) {
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "", serverMessageId: 100, newsletterName: '『•»𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭-𝐌𝐃 «•』', }, externalAdReply: { showAdAttribution: true, title: packname, body: '🍟 ¡Super Bot De WhatsApp!', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: , sorceUrl:, mediaType: 1, renderLargerThumbnail: false }, }, }}
 export default handler
 
 
